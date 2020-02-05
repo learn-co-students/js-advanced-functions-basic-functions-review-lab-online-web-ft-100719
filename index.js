@@ -25,9 +25,7 @@ function actionApplyer(int, array){
     return int 
   }
 
-  array.forEach(func => {
-    int = func(int)
-  });
+  array.map( func => int = func(int))
 
   return int
 
